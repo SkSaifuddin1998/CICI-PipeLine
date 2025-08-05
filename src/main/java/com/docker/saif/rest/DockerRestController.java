@@ -21,4 +21,9 @@ public class DockerRestController {
 	public String dockerTagName() {
 		return "Welcome To Docker Tag Name Created";
 	}
+	
+	@GetMapping("/cicd")
+	public String dockerCICDPipeline() {
+		return "Welcome To Docker CICD pIPELINE";
+	}
 }
