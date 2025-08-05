@@ -24,6 +24,6 @@ public class DockerRestController {
 	
 	@GetMapping("/cicd")
 	public String dockerCICDPipeline() {
-		return "Welcome To Docker CICD pIPELINE";
+		return "Welcome To Docker CICD pIPELINE add password ";
 	}
 }
